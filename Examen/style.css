@@ -17,6 +17,16 @@ h1{
   font-size: 60px;
   color:rgb(105, 176, 247);
 }
+
+
+h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color:rgb(105, 176, 247);
+}
   /* Animación zoom
 @keyframes zoomInOut {
   0% { transform: scale(1); } 
@@ -50,18 +60,29 @@ h1{
 
   }
 
+  .sup{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 20px;
+  }
   .imagen{
-    width: 30%;
+    width: 40%;
     align-items: center;
     text-align: center;
-  /*  background-color: bisque; */
+
 
   }
   .contenido{
-    width: 70%;
-    align-items: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
     text-align: center;
-   /* background-color:aqua; */
+
+    padding: 20px;
+    height: auto;
 
   }
 /* Estilos para pantallas pequeñas (menos de 992px) */
@@ -80,6 +101,30 @@ h1{
     }
   }
   
+
+  .descrip{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .card{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+   
+  }
+
+  .final{
+    height: 50px;
+  }
 
   footer {
     background-color: #343a40; 
